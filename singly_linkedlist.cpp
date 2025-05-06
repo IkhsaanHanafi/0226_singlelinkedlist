@@ -1,14 +1,27 @@
 #include <iostream>
+#include <string.h>
 using namespace std;
 
-// membuat struct node
-struct Node
+class Node
 {
+public:
     int noMhs;
     Node *next;
 };
 
-// set volue START = nulll
-Node *START = NULL;
+class LinkedList
+{
+    Node *START;
 
-// membuat prosedur addNode()
+public:
+    LinkedList()
+    {
+        START = NULL;
+    }
+
+    void addNode()
+    {
+        int nim;
+        cout << "\nMasukkan Nomor Mahasiswa: ";
+    }
+}
